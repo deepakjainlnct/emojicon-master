@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 ```
-More information: [deepkajainlnct/emojiconize](https://github.com/deepakjainlnct/emojiconize)
+More information: [deepkajainlnct/emojiconize](https://github.com/deepakjainlnct/emojicon-master)
 
 ### emojicon
 
@@ -83,7 +83,7 @@ Emojicon is using emojis graphics from [emoji-cheat-sheet.com](https://github.co
 ## Contributing
 
 Please fork this repository and contribute back using
-[pull requests](https://github.com/deepakjainlnct/emojicon).
+[pull requests](https://github.com/deepakjainlnct/emojicon-master).
 
 Any contributions, large or small, major features, bug fixes, additional
 language translations, unit/integration tests are welcomed and appreciated
