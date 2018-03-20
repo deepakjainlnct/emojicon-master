@@ -10,9 +10,6 @@ import android.text.style.DynamicDrawableSpan;
 
 import java.lang.ref.WeakReference;
 
-/**
- * @author Hieu Rocker (rockerhieu@gmail.com)
- */
 class EmojiconSpan extends DynamicDrawableSpan {
     private final Context mContext;
 

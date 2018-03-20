@@ -9,9 +9,6 @@ import com.deepak.app.emojicon.emoji.Emojicon;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
 
-/**
- * @author Daniele Ricci
- */
 public class EmojiconRecentsManager extends ArrayList<Emojicon> {
     private static final String DELIMITER = ",";
     private static final String PREFERENCE_NAME = "emojicon";
