@@ -44,9 +44,6 @@ public class EmojiconMultiAutoCompleteTextView extends AppCompatMultiAutoComplet
         updateText();
     }
 
-    /**
-     * Set the size of emojicon in pixels.
-     */
     public void setEmojiconSize(int pixels) {
         mEmojiconSize = pixels;
 
@@ -57,9 +54,6 @@ public class EmojiconMultiAutoCompleteTextView extends AppCompatMultiAutoComplet
         EmojiconHandler.addEmojis(getContext(), getText(), mEmojiconSize, mEmojiconAlignment, mEmojiconTextSize, mUseSystemDefault);
     }
 
-    /**
-     * Set whether to use system default emojicon
-     */
     public void setUseSystemDefault(boolean useSystemDefault) {
         mUseSystemDefault = useSystemDefault;
     }

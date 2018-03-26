@@ -56,17 +56,11 @@ public class EmojiconTextView extends AppCompatTextView {
         super.setText(text, type);
     }
 
-    /**
-     * Set the size of emojicon in pixels.
-     */
     public void setEmojiconSize(int pixels) {
         mEmojiconSize = pixels;
         super.setText(getText());
     }
 
-    /**
-     * Set whether to use system default emojicon
-     */
     public void setUseSystemDefault(boolean useSystemDefault) {
         mUseSystemDefault = useSystemDefault;
     }

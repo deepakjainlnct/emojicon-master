@@ -17,10 +17,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
 
+import com.deepak.app.emojicon.emoji.Emojicon;
+
 import java.util.Arrays;
 import java.util.List;
-
-import com.deepak.app.emojicon.emoji.Emojicon;
 
 public class EmojiconsFragment extends Fragment implements ViewPager.OnPageChangeListener, EmojiconRecents {
     private OnEmojiconBackspaceClickedListener mOnEmojiconBackspaceClickedListener;

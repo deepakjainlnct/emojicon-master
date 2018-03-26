@@ -8,11 +8,11 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
 
+import com.deepak.app.emojicon.emoji.Emojicon;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-
-import com.deepak.app.emojicon.emoji.Emojicon;
 public class EmojiconGridView extends GridView implements AdapterView.OnItemClickListener {
     @Emojicon.Type
     private int mType;

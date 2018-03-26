@@ -5,7 +5,6 @@ import android.content.Context;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Parcelable;
-import android.support.annotation.NonNull;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.util.AttributeSet;
@@ -18,10 +17,11 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
+import com.deepak.app.emojicon.util.Utils;
+
 import java.util.Arrays;
 import java.util.List;
 
-import com.deepak.app.emojicon.util.Utils;
 public class EmojiconsView extends FrameLayout implements ViewPager.OnPageChangeListener {
     ViewPager mViewPager;
     private List<EmojiconPage> mPages;
@@ -52,7 +52,7 @@ public class EmojiconsView extends FrameLayout implements ViewPager.OnPageChange
         mViewPager.removeOnPageChangeListener(this);
     }
 
-    public void setPages(@NonNull List<EmojiconPage> pages) {
+    public void setPages(List<EmojiconPage> pages) {
         this.mPages = pages;
         if (mTabs == null || mTabs.length != pages.size()) {
             mTabs = new View[pages.size()];
@@ -131,7 +131,7 @@ public class EmojiconsView extends FrameLayout implements ViewPager.OnPageChange
         private final List<EmojiconPage> pages;
         private EmojiconGridView.SavedState[] savedStates;
 
-        public EmojiconGridViewPagerAdapter(Context context, @NonNull List<EmojiconPage> pages) {
+        public EmojiconGridViewPagerAdapter(Context context, List<EmojiconPage> pages) {
             this.context = context;
             this.pages = pages;
             this.savedStates = new EmojiconGridView.SavedState[pages.size()];
